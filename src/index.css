@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root {
+    --bg: #080b14;
+    --surface: #0f1320;
+    --card: #131926;
+    --card2: #1a2133;
+    --border: #1e2d47;
+    --border2: #263650;
+    --yellow: #ffd95a;
+    --cyan: #38f5d4;
+    --pink: #ff6b9d;
+    --purple: #a78bfa;
+    --orange: #fb923c;
+    --green: #4ade80;
+    --blue: #60a5fa;
+    --red: #f87171;
+    --text: #e2e8f5;
+    --muted: #64748b;
+    --muted2: #94a3b8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #080b14;
+    color: #e2e8f5;
+  }
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border2);
+  border-radius: 9999px;
+}
+
+/* ── Grid Background ── */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(30, 45, 71, .3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 45, 71, .3) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ── Scroll Reveal ── */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Fade Up Animations ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp .6s ease both;
+}
+
+.animate-fade-up-1 {
+  animation: fadeUp .6s .1s ease both;
+}
+
+.animate-fade-up-2 {
+  animation: fadeUp .6s .2s ease both;
+}
+
+.animate-fade-up-3 {
+  animation: fadeUp .6s .3s ease both;
+}
+
+/* ── Syntax Highlight ── */
+.sh-kw {
+  color: #c792ea;
+}
+
+.sh-prop {
+  color: #38f5d4;
+}
+
+.sh-val {
+  color: #fb923c;
+}
+
+.sh-sel {
+  color: #ffd95a;
+}
+
+.sh-at {
+  color: #ff6b9d;
+}
+
+.sh-cm {
+  color: #3d5070;
+  font-style: italic;
+}
+
+.sh-str {
+  color: #4ade80;
+}
+
+.sh-tag {
+  color: #60a5fa;
+}
+
+/* ── Range Slider ── */
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: var(--border2);
+  border-radius: 9999px;
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--cyan);
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(56, 245, 212, .4);
+}

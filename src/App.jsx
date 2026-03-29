@@ -1,8 +1,7 @@
-// import CheatsheetPage from '@/components/cheatsheet/index'
-import CheatsheetPage from "./pages/tailwind"
-
+// import CheatsheetPage from '@/components/cheatsheet/index
+import AllInOneStyling from "./pages/AllInOneStyling"
 function App() {
-  return <CheatsheetPage />
+  return <AllInOneStyling />
 }
 
 export default App

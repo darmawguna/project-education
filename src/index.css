@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 
-
 @layer base {
   :root {
     --bg: #080b14;
@@ -36,7 +35,7 @@
   }
 }
 
-/* ── Custom Scrollbar ── */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -50,7 +49,7 @@
   border-radius: 9999px;
 }
 
-/* ── Grid Background ── */
+/* Grid background */
 .grid-bg {
   background-image:
     linear-gradient(rgba(30, 45, 71, .3) 1px, transparent 1px),
@@ -58,7 +57,7 @@
   background-size: 40px 40px;
 }
 
-/* ── Scroll Reveal ── */
+/* Scroll reveal */
 .scroll-reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -70,7 +69,7 @@
   transform: translateY(0);
 }
 
-/* ── Fade Up Animations ── */
+/* Fade up */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -99,7 +98,7 @@
   animation: fadeUp .6s .3s ease both;
 }
 
-/* ── Syntax Highlight ── */
+/* Syntax highlight */
 .sh-kw {
   color: #c792ea;
 }
@@ -133,7 +132,7 @@
   color: #60a5fa;
 }
 
-/* ── Range Slider ── */
+/* Range slider */
 input[type='range'] {
   -webkit-appearance: none;
   width: 100%;

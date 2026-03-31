@@ -1,0 +1,86 @@
+// src/data/cheatsheet/registry.js
+// Tambahkan entry baru di sini setiap kali ada cheatsheet baru
+
+const registry = [
+  {
+    slug: "all-in-one-styling",
+    path: "/cheatsheet/all-in-one-styling",
+    seriesBadge: "// SERI 1",
+    title: "Layout, Typography & Beauty",
+    subtitle: "All-in-One Styling",
+    description:
+      "Kuasai 20% class Tailwind yang paling sering dipakai untuk membangun 80% tampilan web modern — dari skeleton hingga interaksi halus.",
+    tags: ["Tailwind CSS", "Layout", "Typography", "Flexbox", "Hover States"],
+    stats: [
+      { label: "Topik", value: "3" },
+      { label: "Konsep", value: "18" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "8" },
+    ],
+    glow: "cyan",
+    icon: "🎨",
+    status: "available",
+  },
+
+  {
+    slug: "responsive-customization",
+    path: "/cheatsheet/responsive-customization",
+    seriesBadge: "// SERI 2",
+    title: "Responsive Design & Customization",
+    subtitle: "Breakpoints, Grid & Custom Colors",
+    description: "80% keberhasilan website ditentukan oleh tampilannya di HP dan kekuatan brand identity-nya. Kuasai dua hal ini dengan Tailwind.",
+    tags: ["Responsive", "Mobile-First", "Breakpoints", "Grid", "Pseudo-Classes"],
+    stats: [
+      { label: "Topik", value: "5" },
+      { label: "Konsep", value: "20" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "8" },
+    ],
+    glow: "purple",
+    icon: "📱",
+    status: "available",
+  },
+
+  {
+    slug: "php-dasar",
+    path: "/cheatsheet/php-dasar",
+    seriesBadge: "// SERI 1–3",
+    title: "PHP Dasar",
+    subtitle: "Server-Side, Logika & Templating",
+    description: "Dari memahami cara kerja server hingga menulis logika PHP pertamamu di dalam HTML.",
+    tags: ["PHP", "Server-Side", "XAMPP", "Logika", "Templating"],
+    stats: [
+      { label: "Topik", value: "3" },
+      { label: "Konsep", value: "22" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "8" },
+    ],
+    glow: "cyan",
+    icon: "🐘",
+    status: "available",
+  },
+
+  // ─── TEMPLATE UNTUK CHEATSHEET BARU ───────────────────────────────────────
+  // Salin blok di bawah ini dan isi dengan data cheatsheet baru:
+  //
+  // {
+  //   slug: 'nama-seri',
+  //   path: '/cheatsheet/nama-seri',
+  //   seriesBadge: '// SERI N',
+  //   title: 'Judul Cheatsheet',
+  //   subtitle: 'Sub judul singkat',
+  //   description: 'Deskripsi 1–2 kalimat.',
+  //   tags: ['Tag1', 'Tag2'],
+  //   stats: [
+  //     { label: 'Topik',     value: 'N' },
+  //     { label: 'Konsep',    value: 'N' },
+  //     { label: 'Quiz',      value: '10' },
+  //     { label: 'Checklist', value: 'N' },
+  //   ],
+  //   glow: 'purple',   // alternasi 'cyan' | 'purple'
+  //   icon: '🎯',
+  //   status: 'available',
+  // },
+];
+
+export default registry;

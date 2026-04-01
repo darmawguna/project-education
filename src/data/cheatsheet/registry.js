@@ -59,6 +59,24 @@ const registry = [
     icon: "🐘",
     status: "available",
   },
+  {
+    slug: "laragon-setup",
+    path: "/cheatsheet/laragon-setup",
+    seriesBadge: "// SERI 4",
+    title: "Setup Laragon & Live Coding",
+    subtitle: "Install, Struktur Folder & Mini Project",
+    description: "Dari instalasi sampai website PHP pertamamu berjalan di localhost — langkah demi langkah dengan 3 latihan langsung.",
+    tags: ["Laragon", "Localhost", "Live Coding", "Mini Project", "include"],
+    stats: [
+      { label: "Topik", value: "4" },
+      { label: "Konsep", value: "24" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "8" },
+    ],
+    glow: "purple",
+    icon: "⚙️",
+    status: "available",
+  },
 
   // ─── TEMPLATE UNTUK CHEATSHEET BARU ───────────────────────────────────────
   // Salin blok di bawah ini dan isi dengan data cheatsheet baru:

@@ -78,6 +78,44 @@ const registry = [
     status: "available",
   },
 
+  {
+    slug: "form-handling",
+    path: "/cheatsheet/form-handling",
+    seriesBadge: "// SERI 4",
+    title: "Form Handling & Data Processing",
+    subtitle: "PHP Forms, Superglobals & Clean Code",
+    description: "Hidupkan websitemu dengan PHP — belajar menerima, memvalidasi, dan mengolah data kiriman user.",
+    tags: ["PHP", "Form", "GET & POST", "Superglobals", "Include", "Functions"],
+    stats: [
+      { label: "Topik", value: "3" },
+      { label: "Konsep", value: "18" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "7" },
+    ],
+    glow: "purple",
+    icon: "📮",
+    status: "available",
+  },
+
+  {
+    slug: "web-foundation",
+    path: "/cheatsheet/web-foundation",
+    seriesBadge: "// SERI 0",
+    title: "Web Foundation Guidebook",
+    subtitle: "Pahami cara kerja Request & Response",
+    description: "Panduan naratif memahami komunikasi antara Browser dan Server sebelum mulai ngoding backend.",
+    tags: ["HTTP", "URL", "GET & POST", "Concept"],
+    stats: [
+      { label: "Topik", value: "3" },
+      { label: "Konsep", value: "12" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "6" },
+    ],
+    glow: "cyan",
+    icon: "🌐",
+    status: "available",
+  },
+
   // ─── TEMPLATE UNTUK CHEATSHEET BARU ───────────────────────────────────────
   // Salin blok di bawah ini dan isi dengan data cheatsheet baru:
   //

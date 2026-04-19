@@ -116,6 +116,26 @@ const registry = [
     status: "available",
   },
 
+  {
+    slug: "mysql-overview",
+    path: "/cheatsheet/mysql-overview",
+    seriesBadge: "// SERI 3",
+    title: "Database 101: Mengenal MySQL",
+    subtitle: "The Memory of Your Website",
+    description:
+      "Pelajari struktur database, perintah CRUD, Primary Key, dan cara pakai phpMyAdmin — semua yang kamu butuhkan untuk mulai menyimpan data secara permanen.",
+    tags: ["MySQL", "SQL", "CRUD", "phpMyAdmin"],
+    stats: [
+      { label: "Topik", value: "4" },
+      { label: "Konsep", value: "19" },
+      { label: "Quiz", value: "10" },
+      { label: "Checklist", value: "7" },
+    ],
+    glow: "cyan",
+    icon: "🗄️",
+    status: "available",
+  },
+
   // ─── TEMPLATE UNTUK CHEATSHEET BARU ───────────────────────────────────────
   // Salin blok di bawah ini dan isi dengan data cheatsheet baru:
   //

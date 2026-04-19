@@ -5,6 +5,7 @@ import PhpDasar from "./pages/PhpDasar"
 import LaragonSetup from "./pages/LaragonSetup"
 import FormHandling from "./pages/FormHandling"
 import WebFoundation from "./pages/WebFoundation"
+import MysqlOverview from "./pages/MySqlOverview"
 import Home from "./pages/Home"
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/cheatsheet/laragon-setup" element={<LaragonSetup />} />
         <Route path="/cheatsheet/form-handling" element={<FormHandling />} />
         <Route path="/cheatsheet/web-foundation" element={<WebFoundation />} />
+        <Route path="/cheatsheet/mysql-overview" element={<MysqlOverview />} />
       </Routes>
     </BrowserRouter>
   )
